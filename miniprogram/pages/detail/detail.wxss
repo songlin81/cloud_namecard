@@ -3,13 +3,18 @@
   flex-direction: column;
   align-items: center;
 }
-
 .avatarBox image{
   width: 200rpx;
   height: 200rpx;
   margin: 20rpx;
 }
-
 .avatarBox view{
   margin-bottom: 50rpx;
+}
+.btnRegion{
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+.separator{
+  margin-bottom: 10rpx;
 }

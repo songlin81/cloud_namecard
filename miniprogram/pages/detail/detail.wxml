@@ -12,5 +12,8 @@
   <van-cell title="距离下个生日还有" value="{{n2}}天" />
 </van-cell-group>
 
-<van-button block type='warning' bindtap='editFriend'>修改</van-button>
-<van-button block type='danger' bindtap='deleteFriend'>删除</van-button>
+<view class="btnRegion">
+  <van-button block type='warning' bindtap='editFriend'>修改</van-button>
+  <view class="separator"></view>
+  <van-button block type='danger' bindtap='deleteFriend'>删除</van-button>
+</view>

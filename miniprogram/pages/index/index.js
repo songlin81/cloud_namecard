@@ -1,5 +1,6 @@
 var utils = require('../../utils/utils.js')
 
+var app = getApp()
 const db = wx.cloud.database()
 const birthday = db.collection('birthday')
 
@@ -52,7 +53,14 @@ Page({
   },
 
   onLoad: function(options) {
+    let userInfo = app.globalData.userInfo
+    this.setData({
+      userInfo: userInfo
+    })
+    console.log('check...')
+    console.log(app.globalData.userInfo)
   },
+
   onReady: function() {
   },
 

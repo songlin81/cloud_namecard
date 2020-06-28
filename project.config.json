@@ -82,6 +82,13 @@
 					"pathName": "pages/index/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/cover/cover",
+					"pathName": "pages/cover/cover",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

@@ -1,0 +1,8 @@
+<view wx:if="{{showLogin}}" class='container'>
+  <image src='{{src}}' mode='widthFix'></image>
+  <van-button block type='primary' open-type='getUserInfo' bindgetuserinfo='getMyInfo'>点击登陆</van-button>
+</view>
+<view wx:else class='container'>
+  <image src='{{userInfo.avatarUrl}}' mode='widthFix'></image>
+  <van-button block type='primary' bindtap='goToIndex'>进入卡库</van-button>
+</view>

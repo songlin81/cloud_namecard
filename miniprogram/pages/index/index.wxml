@@ -10,3 +10,8 @@
     </view>
   </van-card>
 </block>
+
+<view class="floatRegion">
+  <image class='imgStyle' src='{{userInfo.avatarUrl}}' mode='widthFix'></image>
+  <text class='txtStyle'>{{userInfo.nickName}}</text>  
+</view>

@@ -1,0 +1,15 @@
+.floatRegion{
+  position: fixed;
+  bottom: 50rpx;
+  right: 50rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgStyle{
+  width: 60rpx;
+  border-radius: 25px;
+}
+.txtStyle{
+  font-size: 25rpx;
+}
